@@ -1,0 +1,36 @@
+# ------------------------
+# 核心科学计算库
+numpy==1.24.4
+pandas>=1.3.0
+
+# PyQt 和可视化库
+pyqt6>=6.2.0
+pyqtgraph>=0.12.0
+matplotlib>=3.4.0
+
+# 串口通信
+pyserial>=3.5
+
+# RealSense 相机支持
+pyrealsense2>=2.50.0
+
+# OpenCV 图像处理
+opencv-python>=4.5.0
+
+# zstandard 编解码器
+zstandard>=0.15.0
+
+# 点云处理
+open3d==0.17.0   # 推荐锁定到0.17，兼容性最好
+
+# 视频/音频编解码
+av>=9.0.0
+
+# 进度条显示
+tqdm>=4.60.0
+
+# Feather文件 & 雷达点云数据处理
+pyarrow>=6.0.0
+
+# 姿态/手部/人体关键点跟踪
+mediapipe==0.10.11
